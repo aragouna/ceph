@@ -55,6 +55,7 @@ Requires(post):	binutils
 Requires: systemd
 %endif
 BuildRequires:	gcc-c++
+BuildRequires:	git
 BuildRequires:	boost-devel
 BuildRequires:	cryptsetup
 BuildRequires:	gdbm
@@ -101,7 +102,6 @@ BuildRequires:	python-sphinx
 BuildRequires:	net-tools
 BuildRequires:	libbz2-devel
 BuildRequires:	sharutils
-BuildRequires:	git
 %if 0%{?suse_version} > 1210
 Requires:	gptfdisk
 %if 0%{with tcmalloc}
