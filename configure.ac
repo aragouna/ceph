@@ -24,7 +24,7 @@ AC_MSG_NOTICE([RPM_RELEASE='$RPM_RELEASE'])
 AC_ARG_WITH([man-pages],
     [AS_HELP_STRING([--with-man-pages], [build man pages])],
     [],
-    [with_man_pages=check])
+    [with_man_pages=yes])
 AS_IF([test "x$with_man_pages" != "xno"],
   [AC_CHECK_PROGS(SPHINX_BUILD, sphinx-1.0-build sphinx-build)
    AS_IF([test -z "$SPHINX_BUILD" && \
