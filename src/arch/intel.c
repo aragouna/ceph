@@ -4,7 +4,7 @@
  * Copyright (C) 2013,2014 Inktank Storage, Inc.
  * Copyright (C) 2014 Cloudwatt <libre.licensing@cloudwatt.com>
  *
- * Author: Benjamin Sesia <benjamin.sesia@gmail.com>
+ * Author: Loic Dachary <loic@dachary.org>
  *
  *  This library is free software; you can redistribute it and/or
  *  modify it under the terms of the GNU Lesser General Public
